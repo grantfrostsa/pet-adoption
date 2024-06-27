@@ -171,6 +171,17 @@ body {
   background-color: transparent;
   border: none;
   font-family: "Source Sans 3", sans-serif;
+  cursor: pointer;
+}
+
+.pet-filter button:hover {
+  color: #707070;
+}
+
+.pet-filter .active,
+.pet-filter .active:hover {
+  color: #475aff;
+  text-decoration: underline;
 }
 
 .site-footer {
